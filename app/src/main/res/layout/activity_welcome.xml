@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Activity.WelcomeActivity"
+    android:background="@color/green">
+
+    <ImageView
+        android:id="@+id/ivWelcomeLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/decorplant_logo"
+        android:contentDescription="@string/decorplant_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvWelcomeText"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome_text"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnWelcomeSignUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivWelcomeLogo" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWelcomeSignUp"
+        android:layout_width="208dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="19dp"
+        android:text="@string/sign_up"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/style_welcome_sign_up_button"
+        app:layout_constraintBottom_toTopOf="@+id/btnWelcomeLogIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWelcomeLogIn"
+        android:layout_width="208dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="65dp"
+        android:text="@string/log_in"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/style_welcome_login_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.decor_plant">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Decor_Plant">
+        <activity
+            android:name=".Activity.MyPlantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.FindPlantNameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ResultHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:exported="false" />
+        <activity android:name=".Activity.ResultActivity" />
+        <activity android:name=".Activity.DiagnosisActivity" />
+        <activity android:name=".Activity.ForgotPasswordActivity" />
+        <activity android:name=".Activity.HomePageActivity" />
+        <activity android:name=".Activity.SignUpActivity" />
+        <activity android:name=".Activity.LogInActivity" />
+        <activity android:name=".Activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

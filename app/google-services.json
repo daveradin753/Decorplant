@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "530883519485",
+    "project_id": "decorplant-skripsi-project",
+    "storage_bucket": "decorplant-skripsi-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530883519485:android:d5a9f62786c816cedfaf94",
+        "android_client_info": {
+          "package_name": "com.example.decor_plant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530883519485-v4f6kr5imjtdf5ndu0mohdjlk78gouu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu-UyB8z8zaESBND88Pn2ogyJdozv8iUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530883519485-v4f6kr5imjtdf5ndu0mohdjlk78gouu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
